@@ -1,0 +1,13 @@
+h1{
+    font-family: Georgia, Garamond;
+}
+h2{
+    font-family: 'Trebuchet MS';
+}
+.description{
+    background-color: rgb(242, 242, 242);
+}
+p, li{
+    font-family: Tahoma, Verdana, sans-serif;
+}
+
