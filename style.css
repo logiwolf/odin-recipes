@@ -1,13 +1,112 @@
+* {
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    background-color: #66ffff;
+    height: 150px;
+}
+
+nav h1{
+    margin-left: 10px;
+    font-size: 50px;
+}
+h1, p, h2, h4{
+    color: black;
+}
+.content h2{
+    padding: 30px 0px 0px 0px;
+}
 h1{
     font-family: Georgia, Garamond;
 }
 h2{
     font-family: 'Trebuchet MS';
 }
-.description{
-    background-color: rgb(242, 242, 242);
-}
+
 p, li{
     font-family: Tahoma, Verdana, sans-serif;
 }
+
+.recipe_container{
+    width:400px;
+    display: inline-block;
+    vertical-align: bottom;
+    background-color: aqua;
+
+}
+.preparation_info{
+    vertical-align: top;
+    display: inline-block;
+    width: 1000px;
+    margin-right: 20px;
+    padding: 20px;
+    text-align: top;
+}    
+.time_taken{
+    display: inline-block;
+}
+
+.recipe_container{
+    background-color: azure;
+    margin: 20px auto;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, .5); 
+    width:1400px;
+    margin-left: 25%;
+}
+.recipe_container img{
+    display: inline-block;
+    margin: 0 30px 0 30%px;
+}
+
+#main_heading{
+    padding: 30px 20px;    
+}
+.page_container{
+    margin: 2px 900px 2px 900px;
+    background-color: #e6ffff;
+    border-style: ridge;
+}
+.page_img img{
+    /**vertical-align: bottom;**/
+    width: 180px;
+    height: 180px;
+    display: block;
+   margin-left: auto;
+   margin-right: auto;
+    width: 40%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+    
+}
+.content{
+    padding: 20px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    margin-left: 30px;
+    background-color: #99ffff;
+
+}
+ul, ol{
+    padding: 10px 20px 20px 30px;
+}
+img{
+    vertical-align: bottom;
+}
+footer{
+    background-color: #66ffff;
+    height: 123px;
+}
+footer p{
+    padding:20px 20px;
+    text-align: center;  
+}
+.content,
+.steakBurrito_content{
+    height:860px;
+}
+
 
